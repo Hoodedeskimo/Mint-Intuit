@@ -1,0 +1,89 @@
+*{box-sizing: border-box;}
+body{
+	position:relative;
+	top: 0;
+	right:0;
+}
+input{
+}
+
+label{
+	margin-bottom: 10px;
+}
+#container{
+	position: relative;
+}
+#logo{
+	position: absolute;
+	top:40px;
+	left:200px;
+	height:50px;
+	width:250px;
+}
+#sign-up{
+	position:absolute;
+	top:50px;
+	right:220px;
+	width:180px;
+	padding-left: 0;
+}
+#sign-up > li{
+	display: inline;
+	padding: 0 10px;
+}
+#sign-up li:last-child{
+	border-left:1px solid black;
+}
+#form-container{
+	position: absolute;
+	display: block;
+	min-height:450px;
+	top:100px;
+	min-width: 800px;
+	height:;
+	left:50%;
+	transform: translateX(-50%);
+
+	box-shadow: 1px 3px 8px ;
+}
+#signUpBody{
+	position: relative;
+	padding: 43px 40px 50px 50px;
+	display: block;
+}
+#left-bar{
+	position:absolute;
+	display: inline-block;
+	border-right: 1px solid grey;
+	width:500px;
+}
+#right-bar{
+	position: absolute;
+	display: inline-block;
+	margin-right: 0px;
+	width:200px;
+	right:30px;
+	background-color: #ccc;
+	border: 1px solid black;
+}
+
+
+#bottom-nav{
+	position: absolute;
+	display: inline-block;
+	top:575px;
+	left:325px;
+
+}
+#bottom-nav li{
+	display: inline-block;
+	border-right:1px solid #ccc ;
+}
+#bottom-nav li:last-child{
+	border-right:none;
+}
+#bottom-nav a{
+	text-decoration: none;
+	color: grey;
+	padding: 0 10px;
+}
